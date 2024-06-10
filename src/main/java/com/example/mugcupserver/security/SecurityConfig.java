@@ -40,7 +40,8 @@ public class SecurityConfig {
                         authorize
                                 .requestMatchers(
                                         "/user/test",
-                                        "/user/register"
+                                        "/user/register",
+                                        "/user/checkId"
                                 ).permitAll()
 
                 )
